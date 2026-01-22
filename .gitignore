@@ -3,7 +3,6 @@ sawit/
 venv/
 
 # Isi folder ini jangan di-push, tapi foldernya BOLEH ada
-data/*
 models/*
 reports/*
 
