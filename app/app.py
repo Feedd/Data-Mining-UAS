@@ -141,7 +141,7 @@ with tab1:
                 with r1:
                     if is_diabetic:
                         st.markdown(f"""
-                            <div class="prediction-box" style="background-color: #fff5f5; border-color: #e74c3c;">
+                            <div class="prediction-box" style="background-color: #DCDCDC; border-color: #e74c3c;">
                                 <h2 style="color: #e74c3c; margin-top:0;">🚨 RISIKO TINGGI</h2>
                                 <p>AI mendeteksi probabilitas risiko sebesar <b>{prob:.1%}</b>.</p>
                                 <hr>
@@ -150,7 +150,7 @@ with tab1:
                         """, unsafe_allow_html=True)
                     else:
                         st.markdown(f"""
-                            <div class="prediction-box" style="background-color: #f0fff4; border-color: #2ecc71;">
+                            <div class="prediction-box" style="background-color: #DCDCDC; border-color: #2ecc71;">
                                 <h2 style="color: #2ecc71; margin-top:0;">✅ RISIKO RENDAH</h2>
                                 <p>AI mendeteksi probabilitas risiko hanya <b>{prob:.1%}</b>.</p>
                                 <hr>
