@@ -1,0 +1,20 @@
+# Environment
+sawit/
+venv/
+
+# Isi folder ini jangan di-push, tapi foldernya BOLEH ada
+data/*
+models/*
+reports/*
+
+# Tapi file .gitkeep boleh (optional)
+!data/.gitkeep
+!models/.gitkeep  
+!reports/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
