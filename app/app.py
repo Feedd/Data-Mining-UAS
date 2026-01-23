@@ -87,7 +87,9 @@ with st.sidebar:
         st.error("❌ Engine: Offline")
     
     st.markdown("---")
-    st.caption("Developed for UAS Data Mining © 2026")
+    st.caption("Pasha Aditya Dhananjaya")
+    st.caption("A11.2023.15399")
+    st.caption("© 2026")
 
 # ====================== 4. MAIN INTERFACE ======================
 st.title("🏥 Smart Diabetes Prediction System")
