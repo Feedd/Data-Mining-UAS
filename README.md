@@ -7,30 +7,34 @@ Sistem prediksi diabetes menggunakan machine learning untuk tugas kuliah Data Mi
 capstone-project-data-mining/
 │
 ├── data/
-│ ├── raw/ # Data mentah
-│ ├── processed/ # Data yang sudah diproses
-│ └── external/ # Data referensi eksternal
+│ ├── raw/
+│ ├── processed/
+│ │ └── mental_health_clean.csv
+│
 ├── notebooks/
-│ ├── 01_eda.ipynb # EDA dan preprocessing
-│ ├── 02_modeling.ipynb # Pemodelan dan evaluasi
-│ └── 03_interpretation.ipynb # Interpretasi model
+│ ├── 01_eda.ipynb
+│ ├── 02_modeling.ipynb
+│ └── 03_interpretation.ipynb
+│
 ├── src/
-│ ├── data_preprocessing.py # Script preprocessing
-│ ├── train_model.py # Script training
-│ ├── evaluate_model.py # Script evaluasi
-│ └── utils.py # Fungsi utilitas
+│ ├── data_preprocessing.py
+│ ├── train_model.py
+│ ├── evaluate_model.py
+│ └── utils.py
+│
 ├── models/
-│ ├── best_model.pkl # Model terbaik
-│ └── preprocessing.pkl # Pipeline preprocessing
+│ ├── best_model.pkl
+│ └── preprocessing.pkl
+│
 ├── app/
-│ ├── app.py # Aplikasi Streamlit utama
-│ ├── pages/ # Halaman tambahan Streamlit
-│ └── assets/ # Gambar, CSS, dll.
+│ └── app.py
+│
 ├── reports/
-│ ├── final_report.pdf # Laporan akhir
-│ └── presentation.pptx # Slide presentasi
-├── requirements.txt # Dependencies
-├── README.md # Dokumentasi proyek
+│ ├── final_report.pdf
+│ └── presentation.pptx
+│
+├── requirements.txt
+└── README.md
 
 ## 🚀 Cara Pakai
 
